@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lantern Sky</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="sky" id="sky">
+    <!-- Sample lanterns. In phase 2, JavaScript will create these. -->
+    <div class="lantern" style="left:18%; top:30%; animation-delay:0s"></div>
+    <div class="lantern" style="left:52%; top:18%; animation-delay:-2s"></div>
+    <div class="lantern" style="left:78%; top:38%; animation-delay:-4s"></div>
+  </main>
+
+  <header class="intro">
+    <h1>Lantern Sky</h1>
+    <p>Write a wish. Let it rise.</p>
+  </header>
+
+  <form class="wish-form" id="wishForm">
+    <label for="wish">Your wish</label>
+    <textarea id="wish" maxlength="120" rows="2" placeholder="I wish for..." required></textarea>
+    <div class="row">
+      <span class="count"><span id="count">0</span>/120</span>
+      <button type="submit">Release lantern</button>
+    </div>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
