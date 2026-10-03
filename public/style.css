@@ -22,14 +22,6 @@ body {
 .sky {
   position: fixed;
   inset: 0;
-  background-image:
-    radial-gradient(1.5px 1.5px at 12% 20%, #fff, transparent),
-    radial-gradient(1px 1px at 30% 55%, #fff, transparent),
-    radial-gradient(1.5px 1.5px at 47% 12%, #fff, transparent),
-    radial-gradient(1px 1px at 63% 40%, #fff, transparent),
-    radial-gradient(2px 2px at 82% 18%, #fff, transparent),
-    radial-gradient(1px 1px at 90% 62%, #fff, transparent),
-    radial-gradient(1px 1px at 8% 75%, #fff, transparent);
 }
 
 /* Lanterns are drawn on this canvas by app.js */
